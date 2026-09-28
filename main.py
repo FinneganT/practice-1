@@ -4,3 +4,8 @@
 # that many times. The steps are in README.md.
 #
 # Write your code below this comment.
+def main():
+    whole_number = int(input("Input a whole number: "))
+    phrase = input("Enter a phrase: ")
+    print(phrase * whole_number)
+main()
